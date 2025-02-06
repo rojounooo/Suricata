@@ -1,7 +1,7 @@
 #  Network Monitoring with Suricata
 
 ## Overview 
-This project demonstrated how to use the open source IDS/IPS **Suricata** for **network monitoring** in a virtualised lab.  The aim is to detect, log and analyse network threats.
+This project demonstrates how to use the open source IDS/IPS **Suricata** for **network monitoring** in a virtual lab.  The aim is to detect, log and analyse network threats.
 
 ## Tools & Technologies
 - **VirtualBox** - To run the virtual lab
@@ -32,7 +32,7 @@ This project demonstrated how to use the open source IDS/IPS **Suricata** for **
 
 On the Suricata VM run the following commands:
 ``` bash
-sudo apt update && sudo apt full upgrade -y
+sudo apt update && sudo apt full-upgrade -y
 sudo apt install suricata -y 
 sudo systemctl enable --now suricata
 ```
