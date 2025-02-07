@@ -48,7 +48,7 @@ By the end of this project, the Suricata IDS will be configured with custom rule
 
 ## Steps: 
 
-### Install Suricata using commands or the install-suricata.sh script 
+### Install Suricata using the following commands or the install-suricata.sh script 
 ``` bash 
 sudo apt update & sudo apt full-upgrade -y
 sudo apt install -y suricata 
