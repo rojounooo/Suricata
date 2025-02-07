@@ -9,7 +9,6 @@ This project aims to monitor all network traffic within a virtualised network us
 ## Skills Learned:
 
 - Promiscuous Mode Configuration 
-- Custom Rule Creation 
 - Nmap Scanning Techniques 
 - IDS Configuration and Tuning 
 
