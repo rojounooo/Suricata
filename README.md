@@ -41,6 +41,7 @@ By the end of this project, the Suricata IDS will be configured with custom rule
 | Target       | Ubuntu     | Victim Machine     | Bridged         |
 
 - Set **Promiscuous Mode** to **Allow All** under **Network Settings**
+[VirtualBox NEtwork Settings](Images/network-settings.png)
 - Get the IP addresses for each machine using the `ip addr` command
 - Verify connectivity using `ping` between machines e.g. `ping 192.168.1.46`
 
