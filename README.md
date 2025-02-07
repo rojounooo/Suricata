@@ -3,9 +3,9 @@
 
 ## Objective: 
 
-The aim of this project is to monitor all network traffic within a virtualised network using Suricata as an Intrusion Detection System (IDS) in promiscuous mode. By enabling promiscuous mode, Suricata captures and analyzes all traffic traversing the network, regardless of its destination. 
+This project aims to monitor all network traffic within a virtualised network using Suricata as an Intrusion Detection System (IDS) in promiscuous mode. By enabling promiscuous mode, Suricata captures and analyzes all traffic traversing the network, regardless of destination. 
 
-To test the effectiveness of Suricata's detection capabilities, various Nmap scans will be used to simulate different types of network attacks and scans e.g. stealth scan. These Nmap scans generate patterns in network traffic that Suricata can identify. The goal is to use these scans to create tailored, custom Suricata rules aimed at detecting specific scanning techniques or attack vectors.
+To test the effectiveness of Suricata's detection capabilities, various Nmap scans will be used to simulate different types of network attacks and scans e.g. stealth scans. These Nmap scans generate patterns in network traffic that Suricata can identify. The goal is to use these scans to create tailored, custom Suricata rules to detect specific scanning techniques or attack vectors.
 
 By the end of this project, the Suricata IDS will be configured with custom rules according to the results of the Nmap scans, to enhance its detection capabilities in recognizing and mitigating potential threats within the network.
 
