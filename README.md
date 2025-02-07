@@ -105,7 +105,7 @@ sudo suricata -T -c /etc/suricata/suricata.yaml
 sudo curl http://testmyids.com
 ``` 
 ``` bash
-sudo tail -f /etc/suricata/fast.log
+sudo tail -f /var/log/suricata/fast.log
 ``` 
 ### Result from testmyids.com 
 
